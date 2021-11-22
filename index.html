@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Fundamentals of Computing</title>
+  <meta content="Author" name="Tadeo Bennett">
+  <meta content="Fundamentals of Computing" name="school project">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Dewi - v4.3.0
+  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (max-width: 400px) {
+      #hero div.d-flex {
+        flex-direction: column;
+      }
+
+      #hero a>span {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">F<span>O</span>C</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!-- first normal nav link -->
+          <li><a class="nav-link scrollto active" href="#hero">Course</a></li>
+
+          <!-- Main Drop down link -->
+          <li class="dropdown"><a href="#projects"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- First Dropdown -->
+              <li class="dropdown"><a href="#"><span>Types of Gates</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./projects/gates/and.html">AND Gate</a></li>
+                  <li><a href="./projects/gates/or.html">OR Gate</a></li>
+                  <li><a href="./projects/gates/not.html">NOT Gate</a></li>
+                  <li><a href="./projects/gates/xor.html">XOR Gate</a></li>
+                  <li><a href="./projects/gates/nor.html">NOR Gate</a></li>
+                  <li><a href="./projects/gates/flipflopcircuit.html">FLIP FLOP CIRCUIT</a></li>
+                </ul>
+              </li>
+
+              <!-- Second dropdown -->
+              <li class="dropdown"><a href="#"><span>Data Storage</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./projects/Data Storage/unicode.html">Unicode Converter</a></li>
+                  <li><a href="./projects/Data Storage/bin2dec.html">Binary to Base 10</a></li>
+                </ul>
+              </li>
+
+              <!-- Third dropdown -->
+              <li class="dropdown"><a href="#"><span>Data Manipulation</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./projects/Data Manipulation/cachememory.html">How Cache Memory Works</a></li>
+                  <li><a href="./projects/Data Manipulation/mle.html">Machine Language Emulator</a></li>
+                  <li><a href="./projects/Data Manipulation/dmincpu.html">Data Manipulation in CPU</a></li>
+                  <li><a href="./projects/Data Manipulation/2scomplement.html">INTs in 2s Complement</a></li>
+                </ul>
+              </li>
+
+              <!-- Fourth dropdown -->
+              <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./projects/other/bmi.html">BMI</a></li>
+                </ul>
+              </li>
+
+
+              <!-- Example of 1st level drop down link -->
+              <!-- <li><a href="#">Data Storage</a></li> -->
+            </ul>
+          </li>
+          <!-- End of Main drop down link -->
+
+          <!-- normal nav link -->
+          <li><a class="nav-link scrollto" href="#concepts">Concepts</a></li>
+          <li><a class="nav-link scrollto" href="#database">Database</a></li>
+          <li><a class="nav-link scrollto" href="#docs">Documentation</a></li>
+          <li><a class="nav-link scrollto" href="#devteam">Dev Team</a></li>
+          <!-- end of normal nav links -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <h1>Fundamentals of Computing</h1>
+      <h2>CMPS1134 Final Project</h2>
+      <div class="d-flex">
+        <a href="#projects" class="btn-get-started scrollto">Start Looking :')</a>
+        <!-- <a href="" class="glightbox btn-watch-video"><i
+            class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <section class="text-center">
+      <div class="container" data-aos="fade-up" style="font-size: larger;">
+        This course is an introduction to the fundamentals of Computer Science that will provide students with a foundation for future courses in Computer Science. The course is a broad survey of the discipline through topics that allow students to understand the capabilities of computer systems in terms of: the computer architecture; operating systems and computer networks; software and software development; data organization and visualization; and the potential of computing machines.
+      </div>
+    </section>
+
+    <!-- ======= Portfolio/Projects Section ======= -->
+    <!-- Gates are filtered as card, converters are filtered as app, other filtered as web -->
+    <section id="projects" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Check out our projects</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Gates</li>
+              <li data-filter=".filter-card">Data Storage</li>
+              <li data-filter=".filter-web">Data Manipulation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/projects/other/unicode.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Converter 1</h4>
+              <p>Unicode Converter</p>
+              <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Storage/unicode.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/and.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 1</h4>
+              <p>AND Gate</p>
+              <!-- <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/and.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/projects/other/binary-to-decimal.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Converter 2</h4>
+              <p>Binary to Decimal Converter</p>
+              <!-- <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Storage/bin2dec.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/or.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 2</h4>
+              <p>OR Gate</p>
+              <!-- <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/or.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/not.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 3</h4>
+              <p>NOT Gate</p>
+              <!-- <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/not.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/nor.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 4</h4>
+              <p>NOR Gate</p>
+              <!-- <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/nor.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/xor.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 5</h4>
+              <p>XOR GATE</p>
+              <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/xor.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/projects/other/twoscomp.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Calculator 1</h4>
+              <p>INTs in 2s Complement</p>
+              <!-- <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Manipulation/2scomplement.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/projects/other/flipflop.PNG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gate 6</h4>
+              <p>FLIP FLOP CIRCUIT</p>
+              <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/gates/flipflopcircuit.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/projects/other/cachememory.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>DM1</h4>
+              <p>How Cache Memory Works</p>
+              <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Manipulation/cachememory.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/projects/other/mle.gif" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>DM2</h4>
+              <p>Machine Language Emulator</p>
+              <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Manipulation/mle.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/projects/other/data-manipulation.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>DM3</h4>
+              <p>Data Manipulation in CPU</p>
+              <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+              <a href="./projects/Data Manipulation/dmincpu.html" class="details-link" title="More Details"><i
+                  class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/projects/other/bmi.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Calculator 2</h4>
+              <p>BMI Calculator<p>
+                <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> -->
+                <a href="./projects/other/bmi.html" class="details-link" title="More Details"><i
+                    class="bi bi-eye-fill"></i></a>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section><!-- End Portfolio/Projects Section -->
+
+
+
+
+
+
+    <!-- ======= About Boxes/Concepts Section ======= -->
+    <section id="concepts" class="about-boxes">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Concepts</h2>
+          <p>Concepts taught in this class</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/concepts/concept1.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a
+                    href="https://docs.google.com/presentation/d/1wSepNl1xxP7k6uO9N_6wisMuSWKG9IBdBklT_4gtvoY/edit?usp=sharing"
+                    target="_blank">Basic Data Structures - Arrays, Lists, Stacks, Queues, Trees</a></h5>
+                <p class="card-text">Amanie talks about the various types of basic data structures and gives detailed explanation of each. Click <i>Learn More</i> to view the video on Google Drive. Click the topic for the powerpoint. </p>
+                <a href="https://drive.google.com/file/d/1WSDxyaMfGiKgOmWhuAwV-CiSwqcdI9YP/view?usp=sharing" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/concepts/concept2.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://docs.google.com/presentation/d/17fmJ986QsvLoAv_D0j0AqiR0T8kHr7wSppS6KnVgIAA/edit?usp=sharing" target="_blank">Static vs Dynamic Structures & Pointers</a></h5>
+                <p class="card-text">Tadeo talks about the two types of Data structures, examples of each, and the various differences
+                  in memory allocation that these two structures use. Click <i>Learn More</i> to view on YouTube,
+                  or <a href="https://drive.google.com/file/d/12EfCgnfMJz61nQt0QD5IeKjXjHrvpwbv/view?usp=sharing"
+                    target="_blank">here</a> to view on Google Drive. Click the topic for the powerpoint.</p>
+                <a href="https://youtu.be/GxWiuOogYwU" target="_blank">Learn More</a>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/concepts/concept3.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Implementing Data Structures - Storing Arrays, Lists, Stacks, Queues,
+                    Trees</a></h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab est at
+                  repellendus magnam possimus nesciunt, exercitationem ipsa ratione consequuntur laboriosam! Modi,
+                  error.</p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/concepts/concept4.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://docs.google.com/presentation/d/1xnpgvdO7JWV8NbHiRIGKnHi3ej0WWc1rrrj2hKKARu0/edit#slide=id.p" target="_blank">Customized Data Types - User-Defined Data Types, Abstract Data
+                    Types</a></h5>
+                <p class="card-text">Javier talks about the topic and gives great examples on their implementation. Click <i>Learn More</i> to view the video on Google Drive. Click the topic for the powerpoint.</p>
+                <a href="https://drive.google.com/file/d/18B1mSCNCFHmXXIf4YxHSyZ7u4WE3UXLG/view" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/concepts/concept5.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://docs.google.com/presentation/d/1xK7sqaRClZ0OMmjoMIhPIFoKW4TG3T6l/edit#slide=id.p1"  target="_blank">Classes and Objects</a></h5>
+                <p class="card-text">Lucia Explains the many characteristics associated with objects and classes. She also shares various terminologies that are important to understanding the topic. Click <i>Learn More</i> to view the video on Google Drive. Click the topic for the powerpoint.</p>
+                <a href="https://drive.google.com/file/d/19qREFAndEkMk1fC1JW8C9xLOzrmYdyGM/view?ts=61958cb6" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/concepts/concept6.jpg" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bi bi-cpu-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Pointers in Machine Language</a></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur
+                  officiis, nulla labore rerum dicta beatae id, nihil quidem iusto similique neque quos.</p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End About Boxes/Concepts Section -->
+
+
+
+
+
+    <!-- ======= Features/Database Section ======= -->
+    <section class="about" id="database">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-3 pt-lg-0 content" style="padding-left: 35px;">
+            <h3 class="pt-3">SEE OUR DATABASE PRESENTATION</h3>
+            <p class="fst-italic mb-3">
+              This is our group's demonstration of on how to create a relational database using the Data Definition Language(DDL) called SQL, and perform queries on it using the Data Manipulation Language(DML).
+              </br>
+              </br>
+              <a href="https://drive.google.com/file/d/1CLorI6j-kJaDeRPNnWN-oUDkL-Laadjl/view?usp=sharing" target="_blank">Watch Video</a>
+            </p>
+          </div>
+          <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/database.jpg" class="img-fluid" alt="">
+            <a href="https://youtu.be/qP3z-v8hNmI" class="glightbox play-btn mb-4"></a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Features/Database Section -->
+
+
+
+
+    <!-- Documentation Section -->
+    <section class="about" id="docs">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/document.jpg" class="img-fluid" alt="">
+            <a href="https://docs.google.com/document/d/1deHawmdzjVb5zmUEUMmaObGh2ObW3nFZ/edit?usp=sharing&ouid=107519002508770128200&rtpof=true&sd=true" class="glightbox play-btn mb-4" target="_blank"></a>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content">
+            <h3 class="pt-3">SEE OUR DOCUMENTATION</h3>
+            <p class="fst-italic">
+              This is our group's software requirements specifications document for a "UB transfer Center" application called "UB TransferEase" to help students send in their past course documents, as well as help UB staff to handle this operation. This task provided great practice, as it foreshadows what we can be doing in the future.
+              <br>
+              <br>
+              <a href="https://docs.google.com/document/d/1deHawmdzjVb5zmUEUMmaObGh2ObW3nFZ/edit?usp=sharing&ouid=107519002508770128200&rtpof=true&sd=true"
+                target="_blank">Read Document</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End of Documentation Section -->
+
+
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="devteam" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Development Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/amanie.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanie Allen</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href="https://amanie-allen.github.io/FinalProject/#project" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/me.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Tadeo Bennett</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href="https://tadeobennett.github.io/CMPS1134personalproject/" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Arthur Butler</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Javier Castellanos</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href="https://breadxcrumbs.github.io/finalproject/finalproject/Course.html" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Lucia Che</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Kenneth Choco</h4>
+                <span>Web Developer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <!-- <h3>Dewi</h3> -->
+              <a href="https://www.ub.edu.bz/" target="_blank"><img src="./assets/img/UB-Logo.png"
+                  alt="University of Belize logo" width="150"></a>
+
+              <p>
+                <strong>Phone:</strong> +501 822-3680<br>
+                <strong>Admissions Clerk:</strong> cbarker@ub.edu.bz <br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/UBBZE" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/UniversityOfBelize" class="facebook" target="_blank"><i
+                    class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/explore/locations/495797932/university-of-belize-central-campus/"
+                  class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCJOSfQBGAGXQxdz7FHSY2UA" class="google-plus"
+                  target="_blank"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.linkedin.com/company-beta/437378/" class="linkedin" target="_blank"><i
+                    class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#projects">Projects</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#concepts">Concepts</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#database">Database Video</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#docs">Documentation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#other">Other learned course material</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>University of Belize</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.ub.edu.bz/" target="_blank">University of
+                  Belize Website</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.odlub.com/" target="_blank">Online Campus</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://registration.ub.edu.bz/checkoutsignin.cfm"
+                  target="_blank">Student Portal</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://doit.ub.edu.bz/" target="_blank">UB MPIT:
+                  Information Technology Program</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" target="_blank">Student Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4>Thank you for looking at our site. We hope you enjoyed your experience.</h4>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Dewi</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        Edited by <a href="https://bootstrapmade.com/">TadeoBennett 2020</a></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
