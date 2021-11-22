@@ -1,0 +1,7 @@
+Default size of images in the concept section is 600x400 pixels. Their default name schemes were about-boxes-[number].jpg.
+
+Default hero image size is 1920x1088 pixels.
+
+Default about picture size(for database and documentation) is 1024x768 pixels.
+
+Icon images is 32x32 pixels.
