@@ -29,7 +29,7 @@
 
   <!-- Template Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
-  <link href="../../assets/css/and.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/bin2dec.css">
 
   <!-- =======================================================
   * Template Name: Dewi - v4.3.0
@@ -124,7 +124,7 @@
 
         <div class="d-flex justify-content-between align-items-center">
           <h2>BINARY TO DECIMAL CONVERTER</h2>
-          <p>Project Made by <a href="#" >Arthur Butler</a></p>
+          <p>Project Made by <a href="https://arthurmelvinbutler.github.io/Arthur-Butler-FOC-final-Project/" target="_blank">Arthur Butler</a></p>
           <ol>
             <li><a href="../../index.html">Home</a></li>
             <li>BIN TO DEC</li>
@@ -137,13 +137,36 @@
     <section class="inner-page">
       <div class="container">
         <div id="mainsection" class="row d-flex flex-wrap flex-row justify-content-center align-items-center">
-          <div class="col-md-6 mb-4" id="textsection">
-            <i class="bi bi-emoji-frown"></i>
+          <div class="col-lg-6">
+            <div class="binary_to_decimal">
+                <h2>Binary to Decimal Converter</h2>
+                <div class="form-row">
+                  <form>
+                    <div class="field">
+                      <label>
+                        <input type="text" name="bin" id="input" autocomplete="off" placeholder="Binary No.">
+                        <p>Binary</p>
+                      </label>
+                    </div>
+                    <div class="field">
+                      <label>
+                        <input type="text" name="dec" id="output" readonly="true" placeholder="Decimal No. will appear here">
+                        <p>Decimal</p>
+                      </label>
+                    </div>
+                    <div class="field btn-field">
+                      <button type="button" id="btn">Convert</button>
+                    </div>
+                  </form>
+                  <div id="error-msg">
+                    <p>Please! you should enter a binary number composed by 0 and 1!</p>
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -244,6 +267,7 @@
 
   <!-- my script -->
   <script type="text/javascript" src="../../assets/js/and.js"></script>
+  <script src="../../assets/js/bin2dec.js"></script>
 </body>
 
 </html>
